@@ -8,7 +8,7 @@ const key = "9984bf925c583378f230c437d4358f13"
     document.querySelector(".city").innerHTML = "Tempo em " + data.name
     document.querySelector(".temp").innerHTML = Math.floor(data.main.temp) + "°C"
     document.querySelector(".text-wheather").innerHTML = data.weather[0].description
-    document.querySelector(".umid").innerHTML = "Umidade " + data.main.humidity + "%"
+    document.querySelector(".umid").innerHTML = "Umidade: " + data.main.humidity + "%"
     document.querySelector(".img-wheather").src = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`
 
 
