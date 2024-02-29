@@ -58,10 +58,22 @@ body {
     font-weight: 300;
 }
 
-.temp{
-    font-size: 20px;
+.temp {
+    font-size: 30px;
     color: #ffffff;
     margin-top: 20px;
+}
+
+.min {
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.max {
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 15px;
 }
 
 .smaller-box{
@@ -71,6 +83,13 @@ body {
 }
 
 .text-wheather {
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.sens {
+    font-size: 15px;
     color: #ffffff;
     margin-left: 20px;
     text-transform: capitalize;
